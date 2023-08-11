@@ -5,13 +5,12 @@
 * Return: Always 0 (Success)
 */
 int main(void)
+{char letters[26] = "abcdefghijklmnopqrstuvwxyz";
+int a;
+for (a = 0; a < 26; a++)
 {
-char letter = 'a';
-while (letter <= 'z')
-{
-putchar(letter);
-letter++;
+putchar(letters[a]);
 }
 putchar('\n');
-return 0;}
-
+return (0);
+}
