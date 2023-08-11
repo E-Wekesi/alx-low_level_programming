@@ -21,7 +21,8 @@ putchar(num);
 if (number != 55 || digit != 56)
 {
 putchar(',');
-putchar(' ');}
+putchar(' ');
+}
 }
 }
 }
