@@ -20,7 +20,8 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(times + '0');
-} else if (times >= 10)
+}
+else if (times >= 10)
 {
 _putchar(',');
 _putchar(' ');
