@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Finds and prints the sum of even-valued terms of the Fibonacci sequence.
+* main - Finds and prints the sum of even terms of the Fibonacci sequence.
 *
 * Return: Always 0 (Success)
 */
