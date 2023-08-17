@@ -5,13 +5,13 @@
 */
 int main(void)
 {
-int count;
+int i;
 printf("Infinite loop incoming :(\n");
-count = 0;
-while (count < 10)
-{
-putchar(count);
-}
+i = 0;
+/*while (i < 10)*/
+/*{*/
+/*putchar(i);*/
+/*}*/
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
