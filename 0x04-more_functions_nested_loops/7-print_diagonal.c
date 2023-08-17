@@ -16,7 +16,7 @@ for (count = 0; count < n; count++)
 {
 for (counter = 0; counter < n; counter++)
 {
-if (counter == i)
+if (counter == count)
 _putchar('\\');
 else if (counter < count)
 _putchar(' ');
