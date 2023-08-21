@@ -13,7 +13,7 @@ for (r = 0; str[r] != '\0'; r++)
 long_int++;
 s_length = (long_int / 2);
 if ((long_int % 2) == 1)
-n = ((long_int + 1) / 2);
+s_length = ((long_int + 1) / 2);
 for (r = s_length; str[r] != '\0'; r++)
 _putchar(str[r]);
 _putchar('\n');
