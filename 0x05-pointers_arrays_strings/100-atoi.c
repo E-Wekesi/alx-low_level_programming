@@ -33,6 +33,6 @@ foundDigit = 0;
 index++;
 }
 if (foundDigit == 0)
-return 0;
-return result;
+return (0);
+return (result);
 }
