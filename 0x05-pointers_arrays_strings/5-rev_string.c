@@ -14,7 +14,7 @@ roll++;
 for (r = 0; r < roll; r++)
 {
 roll--;
-reverse = s[i];
+reverse = s[r];
 s[r] = s[roll];
 s[roll] = reverse;
 }
