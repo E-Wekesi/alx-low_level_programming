@@ -7,17 +7,17 @@
 
 char *rot13(char *s)
 {
-	int count = 0, i;
+	int count = 0, counter;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (*(s + count) != '\0')
 	{
-		for (i = 0; i < 52; i++)
+		for (counter = 0; counter < 52; counter++)
 		{
-			if (*(s + count) == alphabet[i])
+			if (*(s + count) == alphabet[counter])
 			{
-				*(s + count) = rot13[i];
+				*(s + count) = rot13[counter];
 				break;
 			}
 		}
