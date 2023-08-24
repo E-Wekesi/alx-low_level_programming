@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
-* infinite_add - Adds two numbers
-* @n1: First number as a string
-* @n2: Second number as a string
-* @r: Buffer to store the result
-* @size_r: Size of the buffer
-*
-* Return: Pointer to the result (r)
-*/
+ * infinite_add - Adds two numbers
+ * @n1: First number as a string
+ * @n2: Second number as a string
+ * @r: Buffer to store the result
+ * @size_r: Size of the buffer
+ *
+ * Return: Pointer to the result (r)
+ */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int len1 = 0, len2 = 0, operation, bigger_len, digit1, digit2, sum = 0;
