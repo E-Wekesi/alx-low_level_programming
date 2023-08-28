@@ -9,14 +9,14 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, sum1 = 0, sum2 = 0;
+	int num1, sum1 = 0, sum2 = 0;
 
-	for (i = 0; i < (size * size); i++)
+	for (num1 = 0; num1 < (size * size); num1++)
 	{
-		if (i % (size + 1) == 0)
-			sum1 += *(a + i);
-		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
-			sum2 += *(a + i);
+		if (num1 % (size + 1) == 0)
+			sum1 += *(a + num1);
+		if (num1 % (size - 1) == 0 && num1 != 0 && num1 < size * size - 1)
+			sum2 += *(a + num1);
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
