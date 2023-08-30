@@ -6,7 +6,7 @@
  * @divider: iterator.
  * Return: 1 if n is a prime number. 0 if n is not a prime number.
  */
-int prime_helper(int n, divider)
+int prime_helper(int n, int divider)
 {
 	if (n % divider == 0)
 	{
