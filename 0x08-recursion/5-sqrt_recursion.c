@@ -1,26 +1,26 @@
 #include "main.h"
 
 /**
- * power_operation - returns the natural square root of a number.
+ * sqrt_guess - helper to find natural square root of a number.
  * @n: input number.
- * @c: iterator.
- * Return: square root or -1.
+ * @helper: current iterator.
+ * Return: square root or -1 if there is no natural sqrt.
  */
-int power_operation(int n, int c)
+int sqrt_guess(int n, int helper)
 {
-	if (c % (n / c) == 0)
+	if (helper % (n / helper) == 0)
 	{
-		if (c * (n / c) == n)
-			return (c);
+		if (helper * (n / helper) == n)
+			return (helper);
 		else
 			return (-1);
 	}
-	return (0 + power_operation(n, c + 1));
+	return (0 + sqrt_guess(n, helper + 1));
 }
 /**
- * _sqrt_recursion - returns the natural square root of a number.
- * @n: input number.
- * Return: natural square root.
+ * _sqrt_recursion - Calculates the natural square root of a number.
+ * @n: The input number to find square root.
+ * Return: Square root of iput.
  */
 int _sqrt_recursion(int n)
 {
@@ -30,5 +30,5 @@ int _sqrt_recursion(int n)
 		return (0);
 	if (n == 1)
 		return (1);
-	return (power_operation(n, 2));
+	return (sqrt_guess(n, 2));
 }
