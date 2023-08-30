@@ -14,7 +14,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * checker - compares each character of the string.
+ * checker - compares each instance of the string.
  * @s: string
  * @index1: left index.
  * @index2: right index.
