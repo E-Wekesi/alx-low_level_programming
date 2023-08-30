@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prime_helper - detects if an input number is a prime number.
+ * prime_helper - detects if a number is a prime number.
  * @n: input number.
  * @divider: iterator.
  * Return: 1 if n is a prime number. 0 if n is not a prime number.
@@ -18,7 +18,7 @@ int prime_helper(unsigned int n, unsigned int divider)
 	return (0 + prime_helper(n, divider + 1));
 }
 /**
- * is_prime_number - detects if an input number is a prime number.
+ * is_prime_number - detects if a number is a prime number.
  * @n: input number.
  * Return: 1 if n is a prime number. 0 if n is not a prime number.
  */
