@@ -3,7 +3,7 @@
 /**
  * prime_number_helper - detects a number is a prime number.
  * @n: input number.
- * @c: iterator.
+ * @divider: iterator.
  * Return: 1 if n is a prime number, 0 if n is not a prime number.
  */
 int prime_number_helper(int n, divider)
