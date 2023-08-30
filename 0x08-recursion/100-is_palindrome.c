@@ -6,7 +6,6 @@
  * @s: The string to check.
  * @start: The starting index.
  * @end: The ending index.
- *
  * Return: 1 if the substring is palindrome, otherwise 0.
  */
 int is_palindrome_helper(char *s, int start, int end)
